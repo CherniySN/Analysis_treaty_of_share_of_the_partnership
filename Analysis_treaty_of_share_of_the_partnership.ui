@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1862</width>
+    <height>837</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Анализ ДДУ v.1.0</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="openButton">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>760</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	color: white;
+	background-color: #093c57;
+	border-radius: 9;
+	border: 1px solid #07adba;
+
+}
+
+QPushButton:hover {
+	background-color: #1388c5;
+	border: 1px solid #057a83;
+}
+
+QPushButton:pressed {
+	background-color: #154560;
+	border: 2px solid #00ccff;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Открыть</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">buttonGroup</string>
+   </attribute>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-50</y>
+     <width>1891</width>
+     <height>941</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Фон1.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>1450</x>
+     <y>0</y>
+     <width>161</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>8 961 390 31 38</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>1380</x>
+     <y>40</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>По вопросам работы программы</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="RunRe">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>760</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	color: white;
+	background-color: #093c57;
+	border-radius: 9;
+	border: 1px solid #07adba;
+
+}
+
+QPushButton:hover {
+	background-color: #1388c5;
+	border: 1px solid #057a83;
+}
+
+QPushButton:pressed {
+	background-color: #154560;
+	border: 2px solid #00ccff;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Обработать</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">buttonGroup</string>
+   </attribute>
+  </widget>
+  <widget class="QPushButton" name="Clear">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>760</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	color: white;
+	background-color: #093c57;
+	border-radius: 9;
+	border: 1px solid #07adba;
+
+}
+
+QPushButton:hover {
+	background-color: #1388c5;
+	border: 1px solid #057a83;
+}
+
+QPushButton:pressed {
+	background-color: #154560;
+	border: 2px solid #00ccff;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Очистить</string>
+   </property>
+   <attribute name="buttonGroup">
+    <string notr="true">buttonGroup</string>
+   </attribute>
+  </widget>
+  <widget class="QTextEdit" name="treatyText">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>901</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit {
+	
+	background-color: #FFFFFF;
+	border-radius: 9;
+	border: 2px solid #07adba;
+
+}
+
+</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>110</y>
+     <width>541</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="costumer">
+      <property name="font">
+       <font>
+        <family>Montserrat</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{color: white}</string>
+      </property>
+      <property name="text">
+       <string>Участники ДДУ:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="price">
+      <property name="font">
+       <font>
+        <family>Montserrat</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{color: white}</string>
+      </property>
+      <property name="text">
+       <string>Цена обьекта недвижимости:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="downpayment_amount">
+      <property name="font">
+       <font>
+        <family>Montserrat</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{color: white}</string>
+      </property>
+      <property name="text">
+       <string>Сумма первоначального взноса:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="value_of_mortgage">
+      <property name="font">
+       <font>
+        <family>Montserrat</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{color: white}</string>
+      </property>
+      <property name="text">
+       <string>Сумма кредита:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="deposit_amount">
+      <property name="font">
+       <font>
+        <family>Montserrat</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{color: white}</string>
+      </property>
+      <property name="text">
+       <string>Депонирумая сумма:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="numbers_of_flores">
+      <property name="font">
+       <font>
+        <family>Montserrat</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{color: white}</string>
+      </property>
+      <property name="text">
+       <string>Количество этажей:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="number_of_flat">
+      <property name="font">
+       <font>
+        <family>Montserrat</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{color: white}</string>
+      </property>
+      <property name="text">
+       <string>Номер квартиры:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="flore">
+      <property name="font">
+       <font>
+        <family>Montserrat</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{color: white}</string>
+      </property>
+      <property name="text">
+       <string>Этаж:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="value_of_rooms">
+      <property name="font">
+       <font>
+        <family>Montserrat</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{color: white}</string>
+      </property>
+      <property name="text">
+       <string>Количество комнат:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="coomon_square">
+      <property name="font">
+       <font>
+        <family>Montserrat</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{color: white}</string>
+      </property>
+      <property name="text">
+       <string>Общая площадь обекта:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>1490</x>
+     <y>110</y>
+     <width>361</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="adress">
+      <property name="font">
+       <font>
+        <family>Montserrat</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{color: white}</string>
+      </property>
+      <property name="text">
+       <string>Адрес обьекта:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="id">
+      <property name="font">
+       <font>
+        <family>Montserrat</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{color: white}</string>
+      </property>
+      <property name="text">
+       <string>Паспортные данные:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <zorder>label_7</zorder>
+  <zorder>openButton</zorder>
+  <zorder>RunRe</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>Clear</zorder>
+  <zorder>treatyText</zorder>
+  <zorder>verticalLayoutWidget</zorder>
+  <zorder>verticalLayoutWidget_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+ </buttongroups>
+</ui>
